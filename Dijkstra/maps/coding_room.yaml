@@ -1,0 +1,7 @@
+image: coding_room3_inv.png
+resolution: 0.00655
+origin: [-5.585000, -1.300000, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+

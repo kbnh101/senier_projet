@@ -1,0 +1,12 @@
+<launch>
+  	<include file="$(find dijkstra)/launch/dijkstra.launch"/>
+
+	<include file="$(find local_path)/launch/control.launch"/>
+
+	<node pkg="state" type="state" name="state"/>
+
+	<node pkg="rviz" type="rviz" name="rviz" args="-d $(find morai_launch)/rviz/setting.rviz"/>
+
+
+</launch>
+
